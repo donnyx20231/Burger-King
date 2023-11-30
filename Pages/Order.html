@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Pizza village & Burger Town</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-----Header-->
+    <header>
+        <a href="#" class="logo"> Pizza & Burger Town</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="../Home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Review.html">Reviews</a></li>
+            <li><a href="#order">Orders</a></li>
+        </ul>
+    </header>
+                 <!------Order body-->
+                 <div class="order-body">
+    <div class="Order">
+        <h2>This is Our promo Specials</h2>
+        <p>Fill the form to stand a chance to win a free pizza!</p>
+        <div class="box">
+            <div class="box-img">
+                <img src="../img/piza3.png">
+            </div>
+            <h2>Pepperoni Pizza Slice</h2>
+            <h3>Medium Meal</h3>
+            <span>$0.00(Free)</span>
+            <i class='bx bx-cart-alt'></i>
+        </div>
+        
+
+        <div class="box">
+            <div class="box-img">
+                <img src="../img/piza2.png">
+            </div>
+            <h2>Full Chicken Pizza </h2>
+            <h3>Medium Meal</h3>
+            <span>$0.00(Free)</span>
+            <i class='bx bx-cart-alt'></i>
+        </div>
+    </div>
+    <div class="order-container">
+        <h1 class="form-title">Order Form</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fullName">Full Name</label>
+                    <input type="text"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Enter Full Name">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="userName">Username</label>
+                    <input type="text"
+                            id="userName"
+                            name="userName"
+                            placeholder="Enter Username">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter Your Email">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="number"
+                            id="phoneNumber"
+                            name="phoneNumber"
+                            placeholder="Enter Phone Number">
+                </div>
+<div class="final">
+                <div class="user-input-box">
+                    <label for="dishes">Dishes</label>
+                    <select id="dishes">
+                        <option value="dishes">Cheese Pizza</option>
+                        <option value="dishes">Cheese Burger</option>
+                        <option value="dishes">Chicken Pizza</option>
+                        <option value="dishes">Chicken Burger</option>
+                        <option value="dishes">Pepperoni Pizza</option>
+                        <option value="dishes">Pepperoni Burger</option>
+ 
+                </div>
+
+                <div class="user-input-box">
+                    <label for="quantity">Quantity</label>
+                    <input type="number"
+                            id="quantity"
+                            name="quantity"
+                            placeholder="How many would you like to order?">
+                </div>
+    </div>
+             </div>
+             <div class="gender-details-box">
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </div>
+             </div>
+             <div class="form-submit-btn">
+                <input type="submit" onclick="feedback()" id="feedback" value="Order Now">
+             </div>
+             <br>
+             <p> Fill the form to stand a chance of winning a free pizza and 
+                a discount coupon of 10% off.
+             </p>
+        </form>
+    </div>
+    </div>
+    <script type="text/javascript" src="../Js/Script.js"></script>
+
+    <!---Footer section-->
+    <section id="contact">
+        <div class="footer">
+         <div class="main">
+            <div class="col">
+                <h4>Menu Links</h4>
+                <ul>
+                    <li><a href="../Home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Review.html">Reviews</a></li>
+                    <li><a href="#Order">Order</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">Event Handling</a></li>
+                    <li><a href="#">Home Delivery</a></li>
+                    <li><a href="#">Home Services</a></li>
+                    <li><a href="#">Special Order</a></li>
+                    <li><a href="#">VIP Service</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Inforamtion</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Inforamtion</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Contact Us</h4>
+               <div class="social">
+                <a href="www.facebook.com"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="www.instagram.com"><i class='bx bxl-instagram'></i></a>
+                    <a href="www.twitter.com"><i class='bx bxl-twitter'></i></a>
+                    <a href="www.linkedIn.com"><i class='bx bxl-linkedin'></i></a>
+               </div>
+            </div>
+         </div>
+        </div>
+    </section>
+</body>
+</html>
